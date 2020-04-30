@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Eugenius760/readme-homework8/issues"
   },
-  "homepage": "https://github.com/Eugenius760/readme-homework8#readme"
+  "homepage": "https://github.com/Eugenius760/readme-homework8#readme",
+  "dependencies": {
+    "inquirer": "^7.1.0"
+  }
 }
