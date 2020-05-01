@@ -2,6 +2,8 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util")
 
+
+
 inquirer.prompt([
     {
         type: "input",
@@ -11,8 +13,17 @@ inquirer.prompt([
     {
         type: "input",
         message: "Tell me about your project",
-        description: "description",
+        name: "description",
     },
+    {
+        type: "list",
+        message: "What did you use for install?",
+        name: "install",
+        choices: [
+            "npm i",
+            "other",
+        ]
+    }
 ]);
 
 function writeToFile(fileName, data) {

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Eugenius760/readme-homework8#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "inquirer": "^7.1.0"
   }
 }
