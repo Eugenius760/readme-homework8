@@ -23,7 +23,19 @@ inquirer.prompt([
             "npm i",
             "other",
         ]
+    },
+    {
+        type: "list",
+        message: "What license did you use?",
+        name: "license",
+        choices: [
+            "MIT",
+            "GNU AGPLv3",
+            "Apache 2.0",
+            "The Unlicense",
+        ]
     }
+
 ]);
 
 function writeToFile(fileName, data) {
