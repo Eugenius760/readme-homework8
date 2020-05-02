@@ -1,8 +1,8 @@
 
-  # test
-  ## test
+  # d
+  ## d
   ## npm i
-  ## MIT
-  ## test
+  ## [!(https://img.shields.io/badge/license-MIT-blue.svg)]
+  ## d
   
   

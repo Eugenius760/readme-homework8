@@ -42,6 +42,24 @@ function promptUser() {
             type: "input",
             message: "Who contributed to the project? (add github username)",
             name: "contributers"
+        },
+        {
+            type: "list",
+            message: "Use this to test the program.",
+            name: "test",
+            choices: [
+                "npm test"
+            ]
+        },
+        {
+            type: "input",
+            message: "Enter your github URL.",
+            name: "github"
+        },
+        {
+            type: "input",
+            message: "Enter your email address",
+            name: "email"
         }
 
     ]);
@@ -52,7 +70,7 @@ function generateMarkdown(data) {
   # ${data.title}
   ## ${data.description}
   ## ${data.install}
-  ## ${data.license}
+  ## [!(https://img.shields.io/badge/license-${data.license}-blue.svg)]
   ## ${data.contributers}
   
   `;
