@@ -34,6 +34,11 @@ inquirer.prompt([
             "Apache 2.0",
             "The Unlicense",
         ]
+    },
+    {
+        type: "input",
+        message: "Who contributed to the project? (add github username)",
+        name: "contributers"
     }
 
 ]);
