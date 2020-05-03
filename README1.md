@@ -1,10 +1,10 @@
 
-  # me
-  [![GitHub license](https://img.shields.io/badge/license-MIT-purple.svg)](https://github.com/ad)
+  # homework
+  [![GitHub license](https://img.shields.io/badge/license-MIT-purple.svg)](https://github.com/eugenius760)
 
   ## Description
 
-me
+generate a readme
 
 ## Table of Contents
 
@@ -22,11 +22,11 @@ me
 
 ## Installation
 
-Run  to install the necessary dependencies.
+Run npm i to install the necessary dependencies.
 
 ## Usage
 
-das
+User will be able to generate a simple readme
 
 ## License
 
@@ -36,7 +36,7 @@ This project is licenesed under the MIT license.
 
 The following contributed to the end product of this project:
 
-https://github.com/de
+https://github.com/johnfyoung
 
 ## Tests
 
@@ -44,6 +44,6 @@ Run npm test to test the program
 
 ## Questions
 
-If you have any questions or concerns, please contact me at dsa.
-Also find me at [My GitHub](https://github.com/ad)
+If you have any questions or concerns, please contact me at williams.de39@gmail.com.
+Also find me at [My GitHub](https://github.com/eugenius760)
   
