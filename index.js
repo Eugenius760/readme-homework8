@@ -68,7 +68,7 @@ function promptUser() {
 function generateMarkdown(data) {
     return `
   # ${data.title}
-  [!(https://img.shields.io/badge/license-${data.license}-blue.svg)]
+  [![GitHub license](https://img.shields.io/badge/license-${data.license}-purple.svg)](https://github.com/${data.github})
 
   ## Description
 
@@ -109,7 +109,10 @@ ${data.contributers}
 ## Tests
 
 Run ${data.test} to test the program
-  
+
+## Questions
+
+If you have any questions or concerns, please contact me at ${data.email}  
   `;
   }
 

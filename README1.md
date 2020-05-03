@@ -1,10 +1,10 @@
 
-  # dsaf
-  [!(https://img.shields.io/badge/license-MIT-blue.svg)]
+  # mine
+  [![GitHub license](https://img.shields.io/badge/license-MIT-purple.svg)](https://github.com/eugenius760)
 
   ## Description
 
-adf
+its mine
 
 ## Table of Contents
 
@@ -36,10 +36,13 @@ This project is licenesed under the MIT license.
 
 The following contributed to the end product of this project:
 
-adsf
+eugenius760
 
 ## Tests
 
 Run npm test to test the program
-  
+
+## Questions
+
+If you have any questions or concerns, please contact me at eugenius760.com  
   
