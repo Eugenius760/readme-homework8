@@ -1,10 +1,10 @@
 
-  # mine
-  [![GitHub license](https://img.shields.io/badge/license-MIT-purple.svg)](https://github.com/eugenius760)
+  # me
+  [![GitHub license](https://img.shields.io/badge/license-MIT-purple.svg)](https://github.com/ad)
 
   ## Description
 
-its mine
+me
 
 ## Table of Contents
 
@@ -22,11 +22,11 @@ its mine
 
 ## Installation
 
-Run npm i to install the necessary dependencies.
+Run  to install the necessary dependencies.
 
 ## Usage
 
-place holder
+das
 
 ## License
 
@@ -36,7 +36,7 @@ This project is licenesed under the MIT license.
 
 The following contributed to the end product of this project:
 
-eugenius760
+https://github.com/de
 
 ## Tests
 
@@ -44,5 +44,6 @@ Run npm test to test the program
 
 ## Questions
 
-If you have any questions or concerns, please contact me at eugenius760.com  
+If you have any questions or concerns, please contact me at dsa.
+Also find me at [My GitHub](https://github.com/ad)
   

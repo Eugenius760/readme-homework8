@@ -2,6 +2,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util")
 const markDown = require("./utils/generateMarkdown")
+const axios = require("axios")
 
 const writeToFile = util.promisify(fs.writeFile);
 
@@ -19,13 +20,14 @@ function promptUser() {
             name: "description",
         },
         {
-            type: "list",
+            type: "input",
             message: "What did you use for install?",
             name: "install",
-            choices: [
-                "npm i",
-                "other",
-            ]
+            default: "npm i"
+            // choices: [
+            //     "npm i",
+            //     "other",
+            // ]
         },
         {
             type: "list",
@@ -44,12 +46,13 @@ function promptUser() {
             name: "contributers"
         },
         {
-            type: "list",
+            type: "input",
             message: "Use this to test the program.",
             name: "test",
-            choices: [
-                "npm test"
-            ]
+            default: "npm test",
+            // choices: [
+            //     "npm test"
+            // ]
         },
         {
             type: "input",
@@ -60,9 +63,24 @@ function promptUser() {
             type: "input",
             message: "Enter your email address",
             name: "email"
+        },
+        {
+            type: "input",
+            message: "How will the user use your program?",
+            name: "usage"
         }
 
-    ]);
+    ])
+    // .then(function(data) {
+    //     const gitURL = `https://api.github.com/users/${data.github}`;
+
+    //     axios.get(gitURL).then(function(res) {
+    //         const gitPic = res.data.avatar_url;
+    //         const user = res.data.url;
+
+    //         generateMarkdown(data, gitPic, user);
+    //     })
+    // })
 }
 
 function generateMarkdown(data) {
@@ -94,7 +112,7 @@ Run ${data.install} to install the necessary dependencies.
 
 ## Usage
 
-place holder
+${data.usage}
 
 ## License
 
@@ -104,7 +122,7 @@ This project is licenesed under the ${data.license} license.
 
 The following contributed to the end product of this project:
 
-${data.contributers}
+https://github.com/${data.contributers}
 
 ## Tests
 
@@ -112,7 +130,8 @@ Run ${data.test} to test the program
 
 ## Questions
 
-If you have any questions or concerns, please contact me at ${data.email}  
+If you have any questions or concerns, please contact me at ${data.email}.
+Also find me at [My GitHub](https://github.com/${data.github})
   `;
   }
 
