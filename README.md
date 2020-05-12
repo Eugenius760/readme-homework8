@@ -20,3 +20,7 @@ https://drive.google.com/file/d/1RZowgQDMhCT1ayw7C5-CJ3GoWN1TLhmy/view
 https://github.com/Eugenius760/readme-homework8
 
 https://github.com/Eugenius760/readme-homework8/blob/master/README1.md
+
+![gif1](assets/gif1.gif)
+![gif2](assets/gif3.gif)
+![gif3](assets/gif2.gif)
